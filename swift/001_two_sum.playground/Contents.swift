@@ -1,6 +1,12 @@
 
 class Solution {
-    
+    /*
+     Things learned:
+     - search speed dramatically optimized using hash table structures such as dictionaries
+     - similar to python, swift has a zip function for iterating through more than one list at a time
+     - swift defaults to naming parameters in methods, a _ must be used if this behavior is not wanted
+     - swift playgrounds on ipad is suitable enough to create algorithms such as this
+ */
     var methodCall: Int = 0
     func twoSumBrute(_ nums: [Int], _ target: Int) -> [Int] {
         var currentTotal = 0
